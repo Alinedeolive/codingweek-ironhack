@@ -1,0 +1,157 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+
+header {
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header img {
+  width: 40px;
+  margin-left: 20px;
+}
+
+a,
+header {
+  font-size: 24px;
+  font-weight: 400;
+  text-decoration: none;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  padding-right: 16px;
+  padding-left: 16px;
+  cursor: pointer;
+}
+
+.underline-on-hover:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  border: 0;
+  padding-top: 14px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 16px;
+  cursor: pointer;
+}
+
+#fist-video {
+  width: 350px;
+}
+
+.main-video {
+  max-width: 500px;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 32px;
+}
+
+#second-video {
+  width: 550px;
+}
+
+second p ul {
+  font-size: 20px;
+  line-height: 26px;
+  max-width: 500px;
+}
+
+.third {
+  background-color: #ffc700;
+  margin-top: 100px;
+}
+
+div {
+  max-width: 550px;
+}
+
+third,
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 32px;
+}
+
+#fourth-video {
+  width: 550px;
+}
+
+fourth p ul {
+  font-size: 20px;
+  line-height: 26px;
+  max-width: 500px;
+}
+
+.community {
+  background-color: black;
+  color: white;
+}
+
+community h2 {
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+community p {
+  max-width: 500;
+  text-align: center;
+}
+
+community img {
+  border-radius: 10px;
+  margin: 20px;
+  max-width: 400px;
+  object-fit: contain;
+}
+
+#browse {
+  color: black;
+  background-color: white;
+  margin: 50px;
+}
+
+.sign-up {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+input {
+  margin: 10px;
+  border-color: black solid 3px;
+  border-radius: 5px;
+  height: 50px;
+  width: 400px;
+  color: #282828;
+  padding-left: 12px;
+}
+
+footer {
+  background-color: #fafafa;
+}
+
+.footer {
+  margin: 50px;
+}
